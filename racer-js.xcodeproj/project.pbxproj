@@ -12,6 +12,7 @@
 		738383941F300128009C8522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738383931F300128009C8522 /* Assets.xcassets */; };
 		738383A21F300128009C8522 /* racer_jsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738383A11F300128009C8522 /* racer_jsTests.swift */; };
 		738383AD1F300128009C8522 /* racer_jsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738383AC1F300128009C8522 /* racer_jsUITests.swift */; };
+		738383BD1F300777009C8522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738383BC1F300777009C8522 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		738383A81F300128009C8522 /* racer-jsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "racer-jsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		738383AC1F300128009C8522 /* racer_jsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = racer_jsUITests.swift; sourceTree = "<group>"; };
 		738383AE1F300128009C8522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		738383BC1F300777009C8522 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				7383838E1F300128009C8522 /* WebViewController.swift */,
 				738383931F300128009C8522 /* Assets.xcassets */,
 				738383981F300128009C8522 /* Info.plist */,
+				738383BC1F300777009C8522 /* LaunchScreen.storyboard */,
 			);
 			path = "racer-js";
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				738383941F300128009C8522 /* Assets.xcassets in Resources */,
+				738383BD1F300777009C8522 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
