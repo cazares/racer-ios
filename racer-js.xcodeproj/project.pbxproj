@@ -496,7 +496,7 @@
 				INFOPLIST_FILE = "racer-js/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cazares.racer-js";
+				PRODUCT_BUNDLE_IDENTIFIER = "7QRW68DD5X.com.cazares.racer-js";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "racer-js-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -513,7 +513,7 @@
 				INFOPLIST_FILE = "racer-js/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cazares.racer-js";
+				PRODUCT_BUNDLE_IDENTIFIER = "7QRW68DD5X.com.cazares.racer-js";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "racer-js-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
