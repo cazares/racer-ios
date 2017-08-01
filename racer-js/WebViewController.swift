@@ -17,6 +17,7 @@ class WebViewController: UIViewController {
         
         let webView = UIWebView()
         webView.translatesAutoresizingMaskIntoConstraints = false
+        webView.scrollView.isScrollEnabled = false
         view.addSubview(webView)
         
         webView.lhs_fillWidthOfSuperview()

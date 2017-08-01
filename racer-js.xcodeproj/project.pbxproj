@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3DDFCBC2BCF5D53409DDC445 /* Pods_racer_js.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF099F032D030E3AB1A9157 /* Pods_racer_js.framework */; };
+		73763D2D1F300F6B00B1A75B /* racer-js-app-icon~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 73763D291F300F6B00B1A75B /* racer-js-app-icon~iPad.png */; };
+		73763D2E1F300F6B00B1A75B /* racer-js-app-icon@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 73763D2A1F300F6B00B1A75B /* racer-js-app-icon@2x~iPad.png */; };
+		73763D2F1F300F6B00B1A75B /* racer-js-app-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73763D2B1F300F6B00B1A75B /* racer-js-app-icon@2x.png */; };
+		73763D301F300F6B00B1A75B /* racer-js-app-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73763D2C1F300F6B00B1A75B /* racer-js-app-icon@3x.png */; };
 		7383838D1F300128009C8522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7383838C1F300128009C8522 /* AppDelegate.swift */; };
 		7383838F1F300128009C8522 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7383838E1F300128009C8522 /* WebViewController.swift */; };
 		738383941F300128009C8522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738383931F300128009C8522 /* Assets.xcassets */; };
 		738383A21F300128009C8522 /* racer_jsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738383A11F300128009C8522 /* racer_jsTests.swift */; };
 		738383AD1F300128009C8522 /* racer_jsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738383AC1F300128009C8522 /* racer_jsUITests.swift */; };
 		738383BD1F300777009C8522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738383BC1F300777009C8522 /* LaunchScreen.storyboard */; };
+		73D2687B1F301021009DD669 /* racer-js-app-icon@2x~iPad-pro.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D2687A1F301021009DD669 /* racer-js-app-icon@2x~iPad-pro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,10 @@
 		1CF099F032D030E3AB1A9157 /* Pods_racer_js.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_racer_js.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3D332300FB3D2B23584747 /* Pods-racer-js.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-racer-js.debug.xcconfig"; path = "Pods/Target Support Files/Pods-racer-js/Pods-racer-js.debug.xcconfig"; sourceTree = "<group>"; };
 		73763D281F30098F00B1A75B /* racer-js-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "racer-js-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		73763D291F300F6B00B1A75B /* racer-js-app-icon~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "racer-js-app-icon~iPad.png"; path = "../../../Desktop/racer-js-app-icon~iPad.png"; sourceTree = "<group>"; };
+		73763D2A1F300F6B00B1A75B /* racer-js-app-icon@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "racer-js-app-icon@2x~iPad.png"; path = "../../../Desktop/racer-js-app-icon@2x~iPad.png"; sourceTree = "<group>"; };
+		73763D2B1F300F6B00B1A75B /* racer-js-app-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "racer-js-app-icon@2x.png"; path = "../../../Desktop/racer-js-app-icon@2x.png"; sourceTree = "<group>"; };
+		73763D2C1F300F6B00B1A75B /* racer-js-app-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "racer-js-app-icon@3x.png"; path = "../../../Desktop/racer-js-app-icon@3x.png"; sourceTree = "<group>"; };
 		738383891F300128009C8522 /* racer-js.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "racer-js.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7383838C1F300128009C8522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7383838E1F300128009C8522 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		738383AC1F300128009C8522 /* racer_jsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = racer_jsUITests.swift; sourceTree = "<group>"; };
 		738383AE1F300128009C8522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		738383BC1F300777009C8522 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73D2687A1F301021009DD669 /* racer-js-app-icon@2x~iPad-pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "racer-js-app-icon@2x~iPad-pro.png"; path = "../../../Desktop/racer-js-app-icon@2x~iPad-pro.png"; sourceTree = "<group>"; };
 		BCF658CB16C9FD9C6BEF1877 /* Pods-racer-js.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-racer-js.release.xcconfig"; path = "Pods/Target Support Files/Pods-racer-js/Pods-racer-js.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +116,11 @@
 				7383838C1F300128009C8522 /* AppDelegate.swift */,
 				7383838E1F300128009C8522 /* WebViewController.swift */,
 				738383931F300128009C8522 /* Assets.xcassets */,
+				73D2687A1F301021009DD669 /* racer-js-app-icon@2x~iPad-pro.png */,
+				73763D291F300F6B00B1A75B /* racer-js-app-icon~iPad.png */,
+				73763D2A1F300F6B00B1A75B /* racer-js-app-icon@2x~iPad.png */,
+				73763D2B1F300F6B00B1A75B /* racer-js-app-icon@2x.png */,
+				73763D2C1F300F6B00B1A75B /* racer-js-app-icon@3x.png */,
 				738383981F300128009C8522 /* Info.plist */,
 				738383BC1F300777009C8522 /* LaunchScreen.storyboard */,
 				73763D281F30098F00B1A75B /* racer-js-Bridging-Header.h */,
@@ -261,8 +276,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73763D2F1F300F6B00B1A75B /* racer-js-app-icon@2x.png in Resources */,
 				738383941F300128009C8522 /* Assets.xcassets in Resources */,
+				73763D2E1F300F6B00B1A75B /* racer-js-app-icon@2x~iPad.png in Resources */,
+				73D2687B1F301021009DD669 /* racer-js-app-icon@2x~iPad-pro.png in Resources */,
 				738383BD1F300777009C8522 /* LaunchScreen.storyboard in Resources */,
+				73763D2D1F300F6B00B1A75B /* racer-js-app-icon~iPad.png in Resources */,
+				73763D301F300F6B00B1A75B /* racer-js-app-icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
