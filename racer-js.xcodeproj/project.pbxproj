@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DDFCBC2BCF5D53409DDC445 /* Pods_racer_js.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF099F032D030E3AB1A9157 /* Pods_racer_js.framework */; };
 		7383838D1F300128009C8522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7383838C1F300128009C8522 /* AppDelegate.swift */; };
 		7383838F1F300128009C8522 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7383838E1F300128009C8522 /* WebViewController.swift */; };
 		738383941F300128009C8522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738383931F300128009C8522 /* Assets.xcassets */; };
@@ -33,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CF099F032D030E3AB1A9157 /* Pods_racer_js.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_racer_js.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3D332300FB3D2B23584747 /* Pods-racer-js.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-racer-js.debug.xcconfig"; path = "Pods/Target Support Files/Pods-racer-js/Pods-racer-js.debug.xcconfig"; sourceTree = "<group>"; };
+		73763D281F30098F00B1A75B /* racer-js-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "racer-js-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		738383891F300128009C8522 /* racer-js.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "racer-js.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7383838C1F300128009C8522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7383838E1F300128009C8522 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +49,7 @@
 		738383AC1F300128009C8522 /* racer_jsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = racer_jsUITests.swift; sourceTree = "<group>"; };
 		738383AE1F300128009C8522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		738383BC1F300777009C8522 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCF658CB16C9FD9C6BEF1877 /* Pods-racer-js.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-racer-js.release.xcconfig"; path = "Pods/Target Support Files/Pods-racer-js/Pods-racer-js.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DDFCBC2BCF5D53409DDC445 /* Pods_racer_js.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +85,8 @@
 				738383A01F300128009C8522 /* racer-jsTests */,
 				738383AB1F300128009C8522 /* racer-jsUITests */,
 				7383838A1F300128009C8522 /* Products */,
+				A96C8254B765CB7F816AA29B /* Pods */,
+				EB774E471A7426B01F625B0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +108,7 @@
 				738383931F300128009C8522 /* Assets.xcassets */,
 				738383981F300128009C8522 /* Info.plist */,
 				738383BC1F300777009C8522 /* LaunchScreen.storyboard */,
+				73763D281F30098F00B1A75B /* racer-js-Bridging-Header.h */,
 			);
 			path = "racer-js";
 			sourceTree = "<group>";
@@ -122,6 +131,23 @@
 			path = "racer-jsUITests";
 			sourceTree = "<group>";
 		};
+		A96C8254B765CB7F816AA29B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C3D332300FB3D2B23584747 /* Pods-racer-js.debug.xcconfig */,
+				BCF658CB16C9FD9C6BEF1877 /* Pods-racer-js.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB774E471A7426B01F625B0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CF099F032D030E3AB1A9157 /* Pods_racer_js.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 738383B11F300128009C8522 /* Build configuration list for PBXNativeTarget "racer-js" */;
 			buildPhases = (
+				959AC90816893A00E93CAFEC /* [CP] Check Pods Manifest.lock */,
 				738383851F300128009C8522 /* Sources */,
 				738383861F300128009C8522 /* Frameworks */,
 				738383871F300128009C8522 /* Resources */,
+				D1083B6B36CE8494EB4BC713 /* [CP] Embed Pods Frameworks */,
+				9DCA984BE615B3F28BC9D316 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +281,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		959AC90816893A00E93CAFEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DCA984BE615B3F28BC9D316 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-racer-js/Pods-racer-js-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1083B6B36CE8494EB4BC713 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-racer-js/Pods-racer-js-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		738383851F300128009C8522 /* Sources */ = {
@@ -392,6 +469,7 @@
 		};
 		738383B21F300128009C8522 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3D332300FB3D2B23584747 /* Pods-racer-js.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QRW68DD5X;
@@ -400,6 +478,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cazares.racer-js";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "racer-js-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -407,6 +486,7 @@
 		};
 		738383B31F300128009C8522 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF658CB16C9FD9C6BEF1877 /* Pods-racer-js.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QRW68DD5X;
@@ -415,6 +495,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cazares.racer-js";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "racer-js-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
