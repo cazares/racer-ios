@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7383838D1F300128009C8522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7383838C1F300128009C8522 /* AppDelegate.swift */; };
+		7383838F1F300128009C8522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7383838E1F300128009C8522 /* ViewController.swift */; };
+		738383941F300128009C8522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738383931F300128009C8522 /* Assets.xcassets */; };
+		738383A21F300128009C8522 /* racer_jsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738383A11F300128009C8522 /* racer_jsTests.swift */; };
+		738383AD1F300128009C8522 /* racer_jsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738383AC1F300128009C8522 /* racer_jsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7383839E1F300128009C8522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 738383811F300128009C8522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 738383881F300128009C8522;
+			remoteInfo = "racer-js";
+		};
+		738383A91F300128009C8522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 738383811F300128009C8522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 738383881F300128009C8522;
+			remoteInfo = "racer-js";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		738383891F300128009C8522 /* racer-js.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "racer-js.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7383838C1F300128009C8522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7383838E1F300128009C8522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		738383931F300128009C8522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		738383981F300128009C8522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7383839D1F300128009C8522 /* racer-jsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "racer-jsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		738383A11F300128009C8522 /* racer_jsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = racer_jsTests.swift; sourceTree = "<group>"; };
+		738383A31F300128009C8522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		738383A81F300128009C8522 /* racer-jsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "racer-jsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		738383AC1F300128009C8522 /* racer_jsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = racer_jsUITests.swift; sourceTree = "<group>"; };
+		738383AE1F300128009C8522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		738383861F300128009C8522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7383839A1F300128009C8522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738383A51F300128009C8522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		738383801F300128009C8522 = {
+			isa = PBXGroup;
+			children = (
+				7383838B1F300128009C8522 /* racer-js */,
+				738383A01F300128009C8522 /* racer-jsTests */,
+				738383AB1F300128009C8522 /* racer-jsUITests */,
+				7383838A1F300128009C8522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7383838A1F300128009C8522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				738383891F300128009C8522 /* racer-js.app */,
+				7383839D1F300128009C8522 /* racer-jsTests.xctest */,
+				738383A81F300128009C8522 /* racer-jsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7383838B1F300128009C8522 /* racer-js */ = {
+			isa = PBXGroup;
+			children = (
+				7383838C1F300128009C8522 /* AppDelegate.swift */,
+				7383838E1F300128009C8522 /* ViewController.swift */,
+				738383931F300128009C8522 /* Assets.xcassets */,
+				738383981F300128009C8522 /* Info.plist */,
+			);
+			path = "racer-js";
+			sourceTree = "<group>";
+		};
+		738383A01F300128009C8522 /* racer-jsTests */ = {
+			isa = PBXGroup;
+			children = (
+				738383A11F300128009C8522 /* racer_jsTests.swift */,
+				738383A31F300128009C8522 /* Info.plist */,
+			);
+			path = "racer-jsTests";
+			sourceTree = "<group>";
+		};
+		738383AB1F300128009C8522 /* racer-jsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				738383AC1F300128009C8522 /* racer_jsUITests.swift */,
+				738383AE1F300128009C8522 /* Info.plist */,
+			);
+			path = "racer-jsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		738383881F300128009C8522 /* racer-js */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738383B11F300128009C8522 /* Build configuration list for PBXNativeTarget "racer-js" */;
+			buildPhases = (
+				738383851F300128009C8522 /* Sources */,
+				738383861F300128009C8522 /* Frameworks */,
+				738383871F300128009C8522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "racer-js";
+			productName = "racer-js";
+			productReference = 738383891F300128009C8522 /* racer-js.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7383839C1F300128009C8522 /* racer-jsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738383B41F300128009C8522 /* Build configuration list for PBXNativeTarget "racer-jsTests" */;
+			buildPhases = (
+				738383991F300128009C8522 /* Sources */,
+				7383839A1F300128009C8522 /* Frameworks */,
+				7383839B1F300128009C8522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7383839F1F300128009C8522 /* PBXTargetDependency */,
+			);
+			name = "racer-jsTests";
+			productName = "racer-jsTests";
+			productReference = 7383839D1F300128009C8522 /* racer-jsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		738383A71F300128009C8522 /* racer-jsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738383B71F300128009C8522 /* Build configuration list for PBXNativeTarget "racer-jsUITests" */;
+			buildPhases = (
+				738383A41F300128009C8522 /* Sources */,
+				738383A51F300128009C8522 /* Frameworks */,
+				738383A61F300128009C8522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				738383AA1F300128009C8522 /* PBXTargetDependency */,
+			);
+			name = "racer-jsUITests";
+			productName = "racer-jsUITests";
+			productReference = 738383A81F300128009C8522 /* racer-jsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		738383811F300128009C8522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Cazares;
+				TargetAttributes = {
+					738383881F300128009C8522 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QRW68DD5X;
+						ProvisioningStyle = Automatic;
+					};
+					7383839C1F300128009C8522 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QRW68DD5X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 738383881F300128009C8522;
+					};
+					738383A71F300128009C8522 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QRW68DD5X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 738383881F300128009C8522;
+					};
+				};
+			};
+			buildConfigurationList = 738383841F300128009C8522 /* Build configuration list for PBXProject "racer-js" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 738383801F300128009C8522;
+			productRefGroup = 7383838A1F300128009C8522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				738383881F300128009C8522 /* racer-js */,
+				7383839C1F300128009C8522 /* racer-jsTests */,
+				738383A71F300128009C8522 /* racer-jsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		738383871F300128009C8522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738383941F300128009C8522 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7383839B1F300128009C8522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738383A61F300128009C8522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		738383851F300128009C8522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7383838F1F300128009C8522 /* ViewController.swift in Sources */,
+				7383838D1F300128009C8522 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738383991F300128009C8522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738383A21F300128009C8522 /* racer_jsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738383A41F300128009C8522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738383AD1F300128009C8522 /* racer_jsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7383839F1F300128009C8522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 738383881F300128009C8522 /* racer-js */;
+			targetProxy = 7383839E1F300128009C8522 /* PBXContainerItemProxy */;
+		};
+		738383AA1F300128009C8522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 738383881F300128009C8522 /* racer-js */;
+			targetProxy = 738383A91F300128009C8522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		738383AF1F300128009C8522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		738383B01F300128009C8522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		738383B21F300128009C8522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QRW68DD5X;
+				INFOPLIST_FILE = "racer-js/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cazares.racer-js";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		738383B31F300128009C8522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QRW68DD5X;
+				INFOPLIST_FILE = "racer-js/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cazares.racer-js";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		738383B51F300128009C8522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7QRW68DD5X;
+				INFOPLIST_FILE = "racer-jsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cazares.racer-jsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/racer-js.app/racer-js";
+			};
+			name = Debug;
+		};
+		738383B61F300128009C8522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7QRW68DD5X;
+				INFOPLIST_FILE = "racer-jsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cazares.racer-jsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/racer-js.app/racer-js";
+			};
+			name = Release;
+		};
+		738383B81F300128009C8522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7QRW68DD5X;
+				INFOPLIST_FILE = "racer-jsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cazares.racer-jsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "racer-js";
+			};
+			name = Debug;
+		};
+		738383B91F300128009C8522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7QRW68DD5X;
+				INFOPLIST_FILE = "racer-jsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cazares.racer-jsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "racer-js";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		738383841F300128009C8522 /* Build configuration list for PBXProject "racer-js" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738383AF1F300128009C8522 /* Debug */,
+				738383B01F300128009C8522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738383B11F300128009C8522 /* Build configuration list for PBXNativeTarget "racer-js" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738383B21F300128009C8522 /* Debug */,
+				738383B31F300128009C8522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738383B41F300128009C8522 /* Build configuration list for PBXNativeTarget "racer-jsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738383B51F300128009C8522 /* Debug */,
+				738383B61F300128009C8522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738383B71F300128009C8522 /* Build configuration list for PBXNativeTarget "racer-jsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738383B81F300128009C8522 /* Debug */,
+				738383B91F300128009C8522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 738383811F300128009C8522 /* Project object */;
+}
