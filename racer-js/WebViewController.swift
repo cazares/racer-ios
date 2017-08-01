@@ -9,11 +9,22 @@
 import UIKit
 
 class WebViewController: UIViewController {
-
+    let racerJSUrl = "http://cazares.github.io/racer-js/index.html"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .black
         
+        let webView = UIWebView()
+        webView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(webView)
+        
+        webView.lhs_fillWidthOfSuperview()
+        webView.lhs_fillHeightOfSuperview()
+        
+        let url = URL(string: racerJSUrl)
+        let request = URLRequest(url: url!)
+        webView.loadRequest(request)
     }
 }
 
