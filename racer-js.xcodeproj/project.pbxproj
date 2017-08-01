@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7383838D1F300128009C8522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7383838C1F300128009C8522 /* AppDelegate.swift */; };
-		7383838F1F300128009C8522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7383838E1F300128009C8522 /* ViewController.swift */; };
+		7383838F1F300128009C8522 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7383838E1F300128009C8522 /* WebViewController.swift */; };
 		738383941F300128009C8522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738383931F300128009C8522 /* Assets.xcassets */; };
 		738383A21F300128009C8522 /* racer_jsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738383A11F300128009C8522 /* racer_jsTests.swift */; };
 		738383AD1F300128009C8522 /* racer_jsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738383AC1F300128009C8522 /* racer_jsUITests.swift */; };
@@ -34,7 +34,7 @@
 /* Begin PBXFileReference section */
 		738383891F300128009C8522 /* racer-js.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "racer-js.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7383838C1F300128009C8522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7383838E1F300128009C8522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7383838E1F300128009C8522 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		738383931F300128009C8522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		738383981F300128009C8522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7383839D1F300128009C8522 /* racer-jsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "racer-jsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				7383838C1F300128009C8522 /* AppDelegate.swift */,
-				7383838E1F300128009C8522 /* ViewController.swift */,
+				7383838E1F300128009C8522 /* WebViewController.swift */,
 				738383931F300128009C8522 /* Assets.xcassets */,
 				738383981F300128009C8522 /* Info.plist */,
 			);
@@ -254,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7383838F1F300128009C8522 /* ViewController.swift in Sources */,
+				7383838F1F300128009C8522 /* WebViewController.swift in Sources */,
 				7383838D1F300128009C8522 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,10 +392,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QRW68DD5X;
 				INFOPLIST_FILE = "racer-js/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cazares.racer-js";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -405,10 +407,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QRW68DD5X;
 				INFOPLIST_FILE = "racer-js/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cazares.racer-js";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
