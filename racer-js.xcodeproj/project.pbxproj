@@ -14,6 +14,11 @@
 		738383A21F300128009C8522 /* racer_jsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738383A11F300128009C8522 /* racer_jsTests.swift */; };
 		738383AD1F300128009C8522 /* racer_jsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738383AC1F300128009C8522 /* racer_jsUITests.swift */; };
 		738383BD1F300777009C8522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738383BC1F300777009C8522 /* LaunchScreen.storyboard */; };
+		73D268811F3150BE009DD669 /* racer-js-app-icon~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D2687C1F3150BD009DD669 /* racer-js-app-icon~iPad.png */; };
+		73D268821F3150BE009DD669 /* racer-js-app-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D2687D1F3150BE009DD669 /* racer-js-app-icon@3x.png */; };
+		73D268831F3150BE009DD669 /* racer-js-app-icon@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D2687E1F3150BE009DD669 /* racer-js-app-icon@2x~iPad.png */; };
+		73D268841F3150BE009DD669 /* racer-js-app-icon@2x~iPad-pro.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D2687F1F3150BE009DD669 /* racer-js-app-icon@2x~iPad-pro.png */; };
+		73D268851F3150BE009DD669 /* racer-js-app-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D268801F3150BE009DD669 /* racer-js-app-icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		738383AC1F300128009C8522 /* racer_jsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = racer_jsUITests.swift; sourceTree = "<group>"; };
 		738383AE1F300128009C8522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		738383BC1F300777009C8522 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73D2687C1F3150BD009DD669 /* racer-js-app-icon~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racer-js-app-icon~iPad.png"; sourceTree = "<group>"; };
+		73D2687D1F3150BE009DD669 /* racer-js-app-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racer-js-app-icon@3x.png"; sourceTree = "<group>"; };
+		73D2687E1F3150BE009DD669 /* racer-js-app-icon@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racer-js-app-icon@2x~iPad.png"; sourceTree = "<group>"; };
+		73D2687F1F3150BE009DD669 /* racer-js-app-icon@2x~iPad-pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racer-js-app-icon@2x~iPad-pro.png"; sourceTree = "<group>"; };
+		73D268801F3150BE009DD669 /* racer-js-app-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "racer-js-app-icon@2x.png"; sourceTree = "<group>"; };
 		BCF658CB16C9FD9C6BEF1877 /* Pods-racer-js.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-racer-js.release.xcconfig"; path = "Pods/Target Support Files/Pods-racer-js/Pods-racer-js.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +116,11 @@
 				7383838C1F300128009C8522 /* AppDelegate.swift */,
 				7383838E1F300128009C8522 /* WebViewController.swift */,
 				738383931F300128009C8522 /* Assets.xcassets */,
+				73D2687C1F3150BD009DD669 /* racer-js-app-icon~iPad.png */,
+				73D2687D1F3150BE009DD669 /* racer-js-app-icon@3x.png */,
+				73D2687E1F3150BE009DD669 /* racer-js-app-icon@2x~iPad.png */,
+				73D2687F1F3150BE009DD669 /* racer-js-app-icon@2x~iPad-pro.png */,
+				73D268801F3150BE009DD669 /* racer-js-app-icon@2x.png */,
 				738383981F300128009C8522 /* Info.plist */,
 				738383BC1F300777009C8522 /* LaunchScreen.storyboard */,
 				73763D281F30098F00B1A75B /* racer-js-Bridging-Header.h */,
@@ -262,7 +277,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				738383941F300128009C8522 /* Assets.xcassets in Resources */,
+				73D268851F3150BE009DD669 /* racer-js-app-icon@2x.png in Resources */,
+				73D268821F3150BE009DD669 /* racer-js-app-icon@3x.png in Resources */,
 				738383BD1F300777009C8522 /* LaunchScreen.storyboard in Resources */,
+				73D268841F3150BE009DD669 /* racer-js-app-icon@2x~iPad-pro.png in Resources */,
+				73D268811F3150BE009DD669 /* racer-js-app-icon~iPad.png in Resources */,
+				73D268831F3150BE009DD669 /* racer-js-app-icon@2x~iPad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
